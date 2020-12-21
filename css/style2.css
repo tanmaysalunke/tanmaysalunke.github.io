@@ -1,0 +1,274 @@
+/* -- General Styling Rules --*/
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+p
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* -- Home Page -- */
+
+.nav_home
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	display: block;
+	height: 150px;
+	width: 75%;
+	margin: 5% 13%;
+}
+
+.nav_home a
+{
+	font-size: 6em;
+	text-align: center;
+	margin: 1.5% 11.5%;
+}
+
+.art_home
+{
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	
+	background-color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+
+#cust
+{
+	
+	margin-left: 13%;
+}
+
+#cust a
+{
+	font-size: 40px;
+	margin-top: 24%;
+}
+
+#cust a:hover
+{
+	border-bottom: 2px dashed;
+}
+
+#trans
+{
+	float: right;
+	margin-right: 11.9%;
+}
+
+#trans a
+{
+	font-size: 40px;
+	margin-top: 24%;
+}
+
+#trans a:hover
+{
+	border-bottom: 2px dashed;
+}
+
+/* -- All Customers -- */
+.nav_cust
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	display: block;
+	height: 70px;
+}
+
+.nav_cust a
+{
+	font-size: 40px;
+	float: right;
+	
+	margin-top: 0.75%;
+	margin-right: 5%;
+}
+
+#nav_left
+{
+	float: left;
+	margin-left: 5%;
+}
+
+.art_cust
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 5% 9%;
+	font-size: 20px;
+	padding-bottom: 0.0009%
+}
+
+.hp_cust
+{
+	margin-top: 0%;
+}
+
+.tcust
+{
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 2% 17%;
+	margin-bottom: 10%;
+	width: 65%;
+	font-size: 25px;
+}
+
+.tcust td, th
+{
+	padding: 1%;
+	border: 1px;
+}
+
+.tcust tr
+{
+	padding-bottom: 5%;
+}
+
+.tcust tr:first-child
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tcust tr:hover
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tcust tr td:first-child
+{
+	width: 5%;
+	text-align: center;
+}
+
+.tcust tr td:last-child
+{
+	width: 27%;
+	text-align: right;
+}
+
+/* -- Fund Transfer -- */
+.art_transfer
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 7% 20%;
+	font-size: 20px;
+	padding-bottom: 0.0009%
+}
+
+form
+{
+	font-size: 25px;
+	
+	width: 50%;
+	text-align: center;
+	margin: 2% 24.5%;
+}
+
+.inputs
+{
+	font-size: 22px;
+}
+
+#transfer_button
+{
+	height: 43px;
+	width: 120px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 1%;
+}
+
+#transfer_button:hover
+{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+}
+
+#transfer_button:focus
+{
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+}
+
+/* -- Transaction Histroy -- */
+.art_trans
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 5% 9%;
+	font-size: 20px;
+	padding-bottom: 0.0009%;
+}
+
+.ttrans
+{
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 2% 17%;
+	margin-bottom: 10%;
+	width: 65%;
+	font-size: 25px;
+}
+
+.ttrans td, th
+{
+	padding: 1%;
+	border: 1px;
+}
+
+.ttrans tr
+{
+	padding-bottom: 5%;
+}
+
+.ttrans tr:first-child
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ttrans tr:hover
+{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ttrans tr td:first-child
+{
+	width: 7%;
+	text-align: center;
+}
+
+.ttrans tr td:nth-child(2), td:nth-child(3)
+{
+	width: 30%;
+}
+
+.ttrans tr td:last-child
+{
+	width: 15%;
+	text-align: right;
+}
